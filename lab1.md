@@ -52,10 +52,10 @@ The working directory for this command was `/home/lecture1`. This output was giv
 *Using the `cat` command with no arguments:*
 ```
 [user@sahara ~]$ cat
-
+hello
+hello
 ```
-The working directory for this command was `/home`. This output was given because the `cat` command did not receive an argument. The `cat` command prints out the contents of whatever files are given, but because none were passed, nothing prints. This is not an error.
-
+The working directory for this command was `/home`. This output was given because the `cat` command did not receive an argument. The `cat` command prints out the contents of whatever files are given, but because none were passed, the `cat` command continously runs unless `^C` is typed by the user. If the user types in something to the terminal, it is immediately printed. This is not an error.
 
 *Using the `cat` command with a directory as an argument:*
 ```
