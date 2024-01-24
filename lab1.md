@@ -1,9 +1,9 @@
 *Using the `cd` command with no arguments*:
 ```
-[user@sahara ~]$ cd
+[user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-The working directory for this command was `/home`. This output was given because no directory was passed as an argument, meaning the current directory stayed the same. This is not an error.
+The working directory for this command was `/home/lecture1`. This output was given because no directory was passed as an argument, meaning the current directory became the root directory. This is not an error.
 
 
 *Using the `cd` command with a directory as an argument:*
