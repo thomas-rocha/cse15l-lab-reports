@@ -9,8 +9,16 @@ The method `handleRequest(URI url)` is used in this screenshot. The argument for
 ![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/1db65427-da85-4750-b245-65cbcc7f9848)
 The method `handleRequest(URI url)` is used in this screenshot. The argument for the method was the url that was updated. The `parameters[]` array was updated to include the message portion of the path in index 0 and the user portion in index 1. Index 0 became `"s=Howdy"` and index 1 became `"user=other_user"`. The `messages[]` and ` user[]` arrays were both updated to separate the username and message from their identifiers. The values became `"s"` and `"Howdy"` for `messages[]` and `"user"` and `"other_user"` for `user[]`. The string `messages` is then updated to add the new values to the pre-existing string to become `"thomas: Hello!\other_user: Howdy\n"`.
 
-## ieng6 Public and Private Keys
-![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/f9460336-9a62-432d-b70d-d4512a512df9)
+## ieng6 Private Key
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/3c6bdc05-7ff5-4a72-b113-0f05bafd8fc3)
+
+The absolute path to the private key is /c/Users/thoma/.ssh/id_ed25519.
+
+## ieng6 Public Key
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/629f2064-8bff-410f-9a8c-bc6d520a3750)
+
+The absolute path to the public key is /c/Users/thoma/.ssh/id_ed25519.pub.
+
 
 ## No password needed to log in to ieng6 machine
 ![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/32b4a866-b5d8-46bb-9004-441b1959cb2d)
