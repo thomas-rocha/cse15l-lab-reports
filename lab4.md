@@ -24,9 +24,17 @@ The keystrokes used in this screenshot are `v i m   L <tab> <up> <enter>`.
 Tab autocompleted `L` into `ListExamples` and <up> converted `ListExamples` to `ListExamples.java`.
 This command opened up the vim editor for the `ListExamples.java` file. 
 
-The next keystrokes used are `4 3 j 1 1 l` to move the cursor to the character "1" in `index1`, which is the line causing the error. 
-The next keystrokes used are `r 2` as this replaces `1` with `2`. 
-The next keystrokes used are `<shift+;> w q <enter>` to save and exit the vim editor. 
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/34cdd501-aabe-4334-b122-9a674339cad7)
+
+The keystrokes used in this screenshot are `4 3 j 1 1 l` to move the cursor to the character "1" in `index1`, which is the line causing the error. 
+
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/ae19bbfb-9917-4bca-8479-e113ded1edca)
+
+The keystrokes used in this screenshot are `r 2` as this replaces `1` with `2`. 
+
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/634cfe2b-90b3-49e6-be64-6bc6edb15594)
+
+The keystrokes used in this screenshot are `<shift+;> w q <enter>` to save and exit the vim editor and to return to the terminal.
 
 ![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/9bd0de52-533f-45e9-9d4b-a669ba944566)
 The keystrokes used in this screenshot are `b a s h   t <tab> <enter>`.
@@ -41,4 +49,8 @@ The command adds the `ListExamples.java` file to the commit push.
 
 The second command used the keystrokes `g i t   c o m m i t   - m   <shift+'> U p d a t e d   L i s t E x a m p l e s . j a v a <shift+'> <enter>`
 This command committed the `ListExamples.java` changes with the message `Updated ListExamples.java`.
+
+![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/4e68707d-2619-4232-b2f0-8bc19efc3214)
+
+The keystrokes used in this screenshot are `g i t   p u s h`. This command pushed the commit changes back to the original repository that was cloned. 
 
