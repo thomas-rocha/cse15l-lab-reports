@@ -55,7 +55,17 @@ After being prompted for a statement, the next input was
 `Thomas`
 
 ## How to fix the bug
-Enter the print.sh file. Navigate to line 6 and replace `java HelloWorld $name` with `$(java HelloWorld $name)`
+Enter the print.sh file. Navigate to line 6 and replace `java HelloWorld $name` with `$(java HelloWorld $name)` The final code should be as follows: 
+```
+javac HelloWorld.java
+
+echo "Enter your name:"
+read name
+
+java_output=$(java HelloWorld $name)
+
+echo "Java Output: $java_output"
+```
 
 # Part 2
 Learning about the vim editor was very interesting to me. I used to wonder how early programmers edited files before IDEs existed and if there was a better method than directly editing text files. Vim has a lot of useful functionality that must have made editing code before IDEs much easier. I thought that the amount of commands used in vim was really cool and that someone could be extremely fast at editing files if they knew all of the tricks in vim.
