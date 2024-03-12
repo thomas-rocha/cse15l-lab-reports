@@ -1,7 +1,7 @@
 # Part 1
 ## Edstem Post Example
 ### Student
-Hello TAs. I am writing a bash script/java program that provides the following functionality: when you run the bash script, it should prompt the user for a string and use a pre-made java program to print out the string "Hello <input>!" where <input> is whatever the user types. When I attempt to run the program, I get the following output however. 
+Hello TAs. I am writing a bash script/java program that provides the following functionality: when you run the bash script, it should prompt the user for a string and use a pre-made java program to print out the string "Hello <>!" where <> is whatever the user types. When I attempt to run the program, I get the following output however. 
 
 ![image](https://github.com/thomas-rocha/cse15l-lab-reports/assets/156377384/e9e0e5e8-8e13-4313-9b48-49148e9623c5)
 
